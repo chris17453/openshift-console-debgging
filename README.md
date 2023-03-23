@@ -17,7 +17,12 @@ Help, the openshift web cosole is down, and you cant login with oc login
 - Master Node IP's
 - Worker Node IP's
 - What environement is this in? (lab/nonprod/dit/qa/uat/prod)
-- did someone turn it off (think vcenter)
+
+## Personas needed
+- access to the hosting environment (vcenter/ec2/gcloud)
+- access to dns 
+- access to bastion host
+- keybaord access to work on the issue (tech)
 
 
 ## First login to your cluster
