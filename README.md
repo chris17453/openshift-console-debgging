@@ -19,10 +19,10 @@ Help, the openshift web cosole is down, and you cant login with oc login
 - What environement is this in? (lab/nonprod/dit/qa/uat/prod)
 
 ## Personas needed
-- access to the hosting environment (vcenter/ec2/gcloud)
-- access to dns 
-- access to bastion host
-- keybaord access to work on the issue (tech)
+- Infrastructure - access to the hosting environment (vcenter/ec2/gcloud)
+- Networking - access to dns 
+- Security - access to security groups / firewalls
+- Engineer - keybaord access to work on the issue 
 
 
 ## First login to your cluster
