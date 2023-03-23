@@ -4,18 +4,21 @@ openshift-cosole-debugging
 ## Problem, Openshift console app is down
 
 ## What could it be?
+- master nodes are down
 - DNS has been changed or lost
 - cluster is overloaded and ejected the pod
-- the ssl cert has expired:?
+- the ssl cert has expired?
 
 ## Gather some needed info
 - The endpoint URL (BASEDOMAIN)
 - DNS Servers
 - Bastion Server Host IP/Credentials
-- Master NODE IP's
+- Master Node IP's
 - Worker Node IP's
 - What environement is this in? (lab/nonprod/dit/qa/uat/prod)
 - did someone turn it off (think vcenter)
+
+
 ## First login to your cluster
 - are you going through a jump box
 ```
