@@ -1,7 +1,7 @@
-# openshift-console-debgging
-openshift-cosole-debugging
+# openshift console debgging
+Help, the openshift web cosole is down, and you cant login with oc login
 
-## Problem, Openshift console app is down
+## Problem, openshift web console app is down and oc login doesnt work
 
 ## What could it be?
 - master nodes are down
