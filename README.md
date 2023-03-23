@@ -1,6 +1,13 @@
 # openshift-console-debgging
 openshift-cosole-debugging
 
+## Problem, Openshift console app is down
+
+## What could it be?
+- DNS has been changed or lost
+- cluster is overloaded and ejected the pod
+- the ssl cert has expired:?
+
 ## First login to your cluster
 ```
 oc login
