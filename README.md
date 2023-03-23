@@ -8,7 +8,14 @@ openshift-cosole-debugging
 - cluster is overloaded and ejected the pod
 - the ssl cert has expired:?
 
+## Gather some needed info
+- The endpoint URL (BASEDOMAIN)
+- DNS Servers
+- Bastion Server Host IP/Credentials
+- 
+
 ## First login to your cluster
+- are you going through a jump box
 ```
 oc login
 ```
