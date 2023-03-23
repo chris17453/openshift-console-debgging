@@ -1,5 +1,5 @@
 # openshift console debgging
-Help, the openshift web cosole is down, and you cant login with oc login
+Help, the openshift web cosole is down, and you can't login with ```oc login```
 
 ## Problem, openshift web console app is down and oc login doesnt work
 
