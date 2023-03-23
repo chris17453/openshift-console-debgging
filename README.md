@@ -12,7 +12,8 @@ openshift-cosole-debugging
 - The endpoint URL (BASEDOMAIN)
 - DNS Servers
 - Bastion Server Host IP/Credentials
-- 
+- Master NODE IP's
+- Worker Node IP's
 
 ## First login to your cluster
 - are you going through a jump box
@@ -20,8 +21,22 @@ openshift-cosole-debugging
 oc login
 ```
 
+# check the network
+```
+- traceroute to the masternodes to see if anything is blocked
+```
+
+## Check to see if the ip's are up
+- for ech node
+```
+arp -a ip address
+```
 ## GET ROUTES
 ```
+# get the machine your on's routes
+netstat -rn
+#
+# get the clusters routes
 oc get routes
 ```
 
