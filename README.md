@@ -7,7 +7,9 @@ oc login
 ```
 
 ## GET ROUTES
-```oc get routes```
+```
+oc get routes
+```
 
 ## CHECK INGRESS
 ```
