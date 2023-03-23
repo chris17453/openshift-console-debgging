@@ -5,13 +5,14 @@ Help, the openshift web cosole is down, and you cant login with oc login
 
 ## What could it be?
 - master nodes are down
-- DNS has been changed or lost
+- routes/gateway have changed
+- DNS has been changed/lost on the bastion/kuberneties nodes
 - cluster is overloaded and ejected the pod
 - the ssl cert has expired?
 
 ## Gather some needed info
 - The endpoint URL (BASEDOMAIN)
-- DNS Servers
+- DNS Servers on the kuberneties and bastion nodes
 - Bastion Server Host IP/Credentials
 - Master Node IP's
 - Worker Node IP's
