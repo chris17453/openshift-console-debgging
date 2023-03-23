@@ -1,6 +1,10 @@
 # openshift-console-debgging
 openshift-cosole-debugging
 
+## First login to your cluster
+```
+oc login
+```
 
 ## GET ROUTES
 ```oc get routes```
