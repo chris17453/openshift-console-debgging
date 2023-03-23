@@ -14,7 +14,8 @@ openshift-cosole-debugging
 - Bastion Server Host IP/Credentials
 - Master NODE IP's
 - Worker Node IP's
-
+- What environement is this in? (lab/nonprod/dit/qa/uat/prod)
+- did someone turn it off (think vcenter)
 ## First login to your cluster
 - are you going through a jump box
 ```
